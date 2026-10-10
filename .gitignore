@@ -1,0 +1,20 @@
+# Pretrained model (248 MB) and third-party code: fetched by the setup steps in the README
+checkpoints/
+third_party/
+
+# Raw runs (posterior samples, photon counts): regenerate with scripts/run_study.py and scripts/run_motion.py
+results/runs/
+results/runs_beta0.2/
+results/p1/
+*.pt
+*.log
+
+# Early smoke tests (not meaningful results)
+results/_cpu_test/
+results/_cpu_test_analysis/
+results/_smoke_prior_samples.png
+results/_test_sampler.png
+
+# Python
+__pycache__/
+*.pyc
